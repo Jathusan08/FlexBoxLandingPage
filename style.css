@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.topSection {
+  display: flex;
+  background-color: #1f2937;
+}
+
+.topSection .firstContent {
+  background-color: #1f2937;
+  color: white;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.signupSection {
+  background-color: #3882f6;
+  color: white;
+}
