@@ -11,7 +11,7 @@
   display: flex;
   justify-content: flex-start;
   /*border-color: aqua; */
-  border-style: dashed;
+  /*border-style: dashed; */
   padding-left: 155px;
   padding-right: 155px;
   padding-top: 5px;
@@ -67,4 +67,22 @@
 .Header-Section > .Second-Section-Container > .right-side {
   padding-top: 12px;
   padding-bottom: 15px;
+  padding-left: px;
+}
+.Matrix-Characters {
+  padding-top: 25px;
+  padding-left: 155px;
+  padding-right: 155px;
+}
+
+.Matrix-Characters > h1 {
+  padding-top: 25px;
+}
+
+.Matrix-Characters > .Character-Container {
+  padding-top: 25px;
+  padding-bottom: 85px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
