@@ -3,25 +3,68 @@
   padding: 0px;
 }
 
-.topSection {
+.Header-Section {
+  background-color: rgb(3, 0, 6);
+}
+
+.Header-Section > .First-Section-Container {
   display: flex;
-  background-color: #1f2937;
+  justify-content: flex-start;
+  /*border-color: aqua; */
+  border-style: dashed;
+  padding-left: 155px;
+  padding-right: 155px;
+  padding-top: 5px;
+  padding-bottom: 55px;
 }
 
-.topSection .firstContent {
-  background-color: #1f2937;
-  color: white;
+.Header-Section > .First-Section-Container > .links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 
-footer {
-  background-color: #1f2937;
-  color: white;
+.link-Color {
+  color: greenyellow;
+  background-color: transparent;
+  text-decoration: none;
   text-align: center;
-  padding: 20px;
-  font-size: 12px;
 }
 
-.signupSection {
-  background-color: #3882f6;
-  color: white;
+.Header-Section > .First-Section-Container > .Title-Image {
+  margin-right: auto;
+}
+
+.Header-Section > .Second-Section-Container {
+  display: flex;
+  justify-content: flex-start;
+
+  /*border-color: aqua; */
+  border-style: dashed;
+  padding-left: 155px;
+  padding-right: 155px;
+}
+
+.Header-Section > .Second-Section-Container > .left-side {
+  width: 420px;
+  padding-right: 45px;
+}
+
+.Header-Section > .Second-Section-Container > .left-side > h1 {
+  color: greenyellow;
+  margin-bottom: 25px;
+}
+
+.Header-Section > .Second-Section-Container > .left-side > p {
+  color: greenyellow;
+  margin-bottom: 25px;
+}
+.Header-Section > .Second-Section-Container > .left-side > button {
+  background-color: greenyellow;
+  color: rgb(0, 0, 0);
+}
+
+.Header-Section > .Second-Section-Container > .right-side {
+  padding-top: 12px;
+  padding-bottom: 15px;
 }
