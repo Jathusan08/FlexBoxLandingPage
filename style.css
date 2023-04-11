@@ -5,6 +5,8 @@
 
 .Header-Section {
   background-color: rgb(3, 0, 6);
+  padding-bottom: 75px;
+  padding-top: 25px;
 }
 
 .Header-Section > .First-Section-Container {
@@ -64,7 +66,6 @@
 }
 
 .Header-Section > .Second-Section-Container > .right-side {
-  padding-top: 12px;
   padding-bottom: 15px;
   padding-left: px;
 }
@@ -80,10 +81,14 @@
 }
 
 .Matrix-Characters > .Character-Container {
-  background-color: greenyellow;
   padding-top: 25px;
   padding-bottom: 85px;
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
