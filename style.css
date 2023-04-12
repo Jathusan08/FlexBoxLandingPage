@@ -19,6 +19,11 @@ body {
   padding-top: 25px;
 }
 
+.Header-Section > .First-Section-Container > .Title-Image > img {
+  width: 250px;
+  height: 150px;
+}
+
 .Header-Section > .First-Section-Container {
   display: flex;
   justify-content: flex-start;
@@ -61,9 +66,14 @@ body {
   width: 420px;
 }
 
+.Header-Section > .Second-Section-Container > .left-side > button {
+  width: 125px;
+}
+
 .Header-Section > .Second-Section-Container > .left-side > h1 {
   color: greenyellow;
   margin-bottom: 25px;
+  font-size: 60px;
 }
 
 .Header-Section > .Second-Section-Container > .left-side > p {
@@ -79,6 +89,11 @@ body {
   padding-bottom: 15px;
   padding-left: 2px;
 }
+
+.Header-Section > .Second-Section-Container > .right-side > img {
+  width: 500px;
+  height: 345px;
+}
 .Matrix-Characters {
   padding-top: 25px;
   padding-left: 155px;
@@ -88,6 +103,7 @@ body {
 
 .Matrix-Characters > h1 {
   padding-top: 25px;
+  text-align: center;
 }
 
 .Matrix-Characters > .Character-Container {
@@ -96,6 +112,10 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+.Matrix-Characters > .Character-Container > div > p {
+  text-align: center;
 }
 
 .Quote-Container {
@@ -155,9 +175,33 @@ body {
   width: 35px;
   height: 100px;
   margin-left: 35px;
+  border-radius: 36px;
+}
+
+.Fourth-Section > .Fourth-Container > .buttons-Section > .red-pill {
+  background-color: red;
+}
+
+.Fourth-Section > .Fourth-Container > .buttons-Section > .blue-pill {
+  background-color: blue;
+}
+
+.Fourth-Section > .Fourth-Container > div > h1 {
+  color: greenyellow;
+}
+
+.Fourth-Section > .Fourth-Container > div > p {
+  background-color: black;
+  color: white;
 }
 
 footer {
   padding-top: 35px;
   padding-bottom: 35px;
+  background-color: rgb(3, 0, 6);
+}
+
+footer > p {
+  text-align: center;
+  color: greenyellow;
 }
